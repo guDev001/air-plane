@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>AirTravels</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="#"><img src="assets/logo.png" alt="logo"></a>
+                </div>
+                <div class="nav-menu-btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Serviços</a></li>
+                <li><a href="#offer">Ofertas</a></li>
+                <li><a href="#client">Clientes</a></li>
+                <li><button class="btn">Cadastre-se</button></li>
+            </ul>
+        </nav>
+        <div class="section-container header-container" id="home">
+            <h1>Não Importa Para Aonda Você Vá, Nós Te Acompanharemos</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quas est. Soluta similique itaque 
+                molestiae eligendi enim nobis.
+            </p>
+            <div class="booking">
+                <div class="booking-type" id="booking-type">
+                    <div class="active">Somente Ida</div>
+                    <div>Ida e Volta</div>
+                    <div>Multi City</div>
+                </div>
+                <form action="/" class="booking-form">
+                    <div class="booking-input">
+                        <label for="arrival">Para</label>
+                        <input type="text" placeholder="Chegada">
+                    </div>
+                    <div class="booking-input">
+                        <label for="departure">De</label>
+                        <input type="text" placeholder="Partida">
+                    </div>
+                    <div class="booking-input">
+                        <label for="date">Para</label>
+                        <input type="text" placeholder="Data">
+                    </div>
+                </form>
+                <div class="booking-btn">
+                    <button class="btn">Agendar Agora</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-container service-container" id="service">
+        <h2 class="section-header">
+            Nossos Serviços
+        </h2>
+
+        <p class="section-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque voluptatum cumque illo 
+            consequuntur at eaque impedit, quasi vero nostrum.
+        </p>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="assets/service-1.jpg" alt="service">
+                <div>
+                    <div>
+                        <h4>
+                            Bilhete de Cruzeiro
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique mollitia doloremque
+                            quia totam reiciendis ratione perferendis. 
+                        </p>
+                    </div>
+                    <div class="service-btn">
+                        <button class="btn">Veja Tudo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="assets/service-2.jpg" alt="service">
+                <div>
+                    <div>
+                        <h4>
+                            Alugar Carros
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique mollitia doloremque
+                            quia totam reiciendis ratione perferendis. 
+                        </p>
+                    </div>
+                    <div class="service-btn">
+                        <button class="btn">Veja Tudo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="assets/service-3.jpg" alt="service">
+                <div>
+                    <div>
+                        <h4>
+                            Bilhete de Avião
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique mollitia doloremque
+                            quia totam reiciendis ratione perferendis. 
+                        </p>
+                    </div>
+                    <div class="service-btn">
+                        <button class="btn">Veja Tudo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="assets/service-4.jpg" alt="service">
+                <div>
+                    <div>
+                        <h4>
+                            Agendar Hotel 
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique mollitia doloremque
+                            quia totam reiciendis ratione perferendis. 
+                        </p>
+                    </div>
+                    <div class="service-btn">
+                        <button class="btn">Veja Tudo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container offer-container" id="offer"> 
+        <div class="offer-header">
+            <h2 class="section-header">Detalhes das Ofertas de Voo</h2>
+            <a href="#">Veja Tudo</a>
+        </div>
+        <div class="offer-grid">
+            <div class="offer-card">
+                <img src="assets/offer-1.jpg" alt="offer">
+                <h4>Dhaka Para USA</h4>
+                <p>12 Out 2023</p>
+                <div>
+                    <span>R$ 4.350.00</span>
+                    <button class="btn">Agendar Agora</button>
+                </div>
+            </div>
+            <div class="offer-card">
+                <img src="assets/offer-2.jpg" alt="offer">
+                <h4>Dhaka Para Dubai</h4>
+                <p>12 Mar 2023</p>
+                <div>
+                    <span>R$ 2.860.00</span>
+                    <button class="btn">Agendar Agora</button>
+                </div>
+            </div>
+            <div class="offer-card">
+                <img src="assets/offer-3.jpg" alt="offer">
+                <h4>Dhaka Para Maldivas</h4>
+                <p>12 Dez 2023</p>
+                <div>
+                    <span>R$ 1.872.00</span>
+                    <button class="btn">Agendar Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container about-container" id="about">
+        <div class="about-image">
+            <img src="assets/about.png" alt="about">
+        </div>
+        <div class="about-content">
+            <h2 class="section-header">Caminho Fácil Até a Sua Próxima Parada</h2>
+            <p class="section-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, esse numquam ex a dignissimos 
+                voluptas autem minus.
+            </p>
+            <ul>
+                <li>
+                    <span><i class="ri-checkbox-circle-line"></i></span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod sunt hic minus quis neque non totam 
+                    dolores dolorum, et deserunt. Mollitia voluptatibus aperiam labore saepe.
+                </li>
+                <li>
+                    <span><i class="ri-checkbox-circle-line"></i></span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod sunt hic minus quis neque non totam 
+                    dolores dolorum, et deserunt. Mollitia voluptatibus aperiam labore saepe.
+                </li>
+            </ul>
+            <div class="about-links">
+                <a href="#">
+                    <img src="assets/google-play.png" alt="google-play">
+                </a>
+                <a href="#">
+                    <img src="assets/app-store.png" alt="app-store">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="client" id="client">
+        <div class="section-container client-container">
+            <h2 class="section-header">O Que Nossos Clientes Dizem</h2>
+            <p class="section-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam et odit possimus, minima, rem,
+                fugiat.
+            </p>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="client-card">
+                        <img src="assets/client-1.jpg" alt="client">
+                        <h4>Tiago Azevedo</h4>
+                        <p>Médico</p>
+                        <div class="client-ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-half-fill"></i></span>
+                            <span><i class="ri-star-line"></i></span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, reprehenderit. Sit eum
+                            aliquam dolorem tempore nesciunt voluptatibus eius ipsum error. 
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-card">
+                        <img src="assets/client-2.jpg" alt="client">
+                        <h4>Rebeca Taqov</h4>
+                        <p>Bancária</p>
+                        <div class="client-ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-line"></i></span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, reprehenderit. Sit eum
+                            aliquam dolorem tempore nesciunt voluptatibus eius ipsum error. 
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-card">
+                        <img src="assets/client-3.jpg" alt="client">
+                        <h4>Bianca Andrade</h4>
+                        <p>Designer Gráfico</p>
+                        <div class="client-ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-line"></i></span>
+                            <span><i class="ri-star-line"></i></span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, reprehenderit. Sit eum
+                            aliquam dolorem tempore nesciunt voluptatibus eius ipsum error. 
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-card">
+                        <img src="assets/client-4.jpg" alt="client">
+                        <h4>Douglas Rafael</h4>
+                        <p>Engenheiro Naval</p>
+                        <div class="client-ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-half-fill"></i></span>
+                            <span><i class="ri-star-line"></i></span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, reprehenderit. Sit eum
+                            aliquam dolorem tempore nesciunt voluptatibus eius ipsum error. 
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-card">
+                        <img src="assets/client-5.jpg" alt="client">
+                        <h4>Rafael Leão</h4>
+                        <p>Historiador</p>
+                        <div class="client-ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, reprehenderit. Sit eum
+                            aliquam dolorem tempore nesciunt voluptatibus eius ipsum error. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section-container footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <a href="#"><img src="assets/logo.png" alt="logo"></a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto rem magnam amet itaque cum inventore 
+                    nesciunt debitis culpa beatae veniam, quam quae deserunt autem sed omnis et. Perferendis, dolor 
+                    doloribus.
+                </p>
+                <ul class="footer-socials">
+                    <li>
+                        <a href="#"><span><i class="ri-facebook-fill"></i></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span><i class="ri-instagram-fill"></i></span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span><i class="ri-youtube-line"></i></span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Voos</a>
+                    </li>
+                    <li>
+                        <a href="#">Hotéis</a>
+                    </li>
+                    <li>
+                        <a href="#">Cruzeiros</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Entren Em Contato</h4>
+                <ul class="footer-links">
+                    <li>
+                        <a href="#">
+                            <span><i class="ri-phone-fill"></i></span> +xx xxxxx-xxxx
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="ri-record-mail-line"></i></span> info@airtravels
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="ri-map-pin-2-fill"></i></span> São Paulo, Brasil
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Inscreva-se</h4>
+                <form action="/">
+                    <input type="text" placeholder="Entre com seu e-mail">
+                    <button class="btn">Inscreva-se</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bar">
+            Copyright &#169; GuDev09. Todos os direitos reservados.
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
